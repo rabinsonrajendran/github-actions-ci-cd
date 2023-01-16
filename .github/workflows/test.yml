@@ -1,1 +1,8 @@
-dfasffda
+name: My first githup actions
+on: [push]
+jobs:
+  print-hello-world:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "hello world!!!"
+      - run: echo "this is step number 2"
